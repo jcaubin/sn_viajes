@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="215ac4f8832312108cbc6f80ceaad394" label="unidad" max_length="40" name="x_1605933_viajes_0_unidad" text_index="true" type="collection">
+        <element label="Area" max_length="32" name="area" reference="x_1605933_viajes_0_area" type="reference"/>
+        <element display="true" label="Unidad" max_length="240" name="unidad" type="string"/>
+        <index name="index">
+            <element name="area"/>
+        </index>
+    </element>
+</database>

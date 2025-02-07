@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">c5e90979836312108cbc6f80ceaad3ae</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"viaje","sourceType":"table","tableOrViewName":"x_1605933_viajes_0_viaje","filterQuery":"","id":"tablex_1605933_viajes_0_viaje1738858247598","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Critical Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1605933_viajes_0_viaje1738858247598","id":"tablex_1605933_viajes_0_viaje17388582475981738858247606","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>9</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-06 16:10:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85e90979836312108cbc6f80ceaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="viajes_02" source="x_1605933_viajes_0">38e80878832312108cbc6f80ceaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</sys_scope>
+        <sys_update_name>par_dashboard_widget_85e90979836312108cbc6f80ceaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-06 16:10:48</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>32</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</application>
+        <file_path/>
+        <instance_id>f3eeee361b190a5432182f8dee4bcb5c</instance_id>
+        <instance_name>dev255443</instance_name>
+        <name>par_dashboard_widget_85e90979836312108cbc6f80ceaad3b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">c5e90979836312108cbc6f80ceaad3ae</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"viaje","sourceType":"table","tableOrViewName":"x_1605933_viajes_0_viaje","filterQuery":"","id":"tablex_1605933_viajes_0_viaje1738858247598","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Critical Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1605933_viajes_0_viaje1738858247598","id":"tablex_1605933_viajes_0_viaje17388582475981738858247606","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>9</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-06 16:10:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>85e90979836312108cbc6f80ceaad3b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="viajes_02" source="x_1605933_viajes_0">38e80878832312108cbc6f80ceaad3ac</sys_package><sys_policy/><sys_scope display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</sys_scope><sys_update_name>par_dashboard_widget_85e90979836312108cbc6f80ceaad3b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-06 16:10:48</sys_updated_on><visualization/><w>16</w><widget_props/><x>32</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1415549509</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c9e80878832312108cbc6f80ceaad3b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-06 16:10:48</sys_created_on>
+        <sys_id>c1e90979836312108cbc6f80ceaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194dc0739980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-06 16:10:48</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>c5e9097962631210c601b5b6549043b9</update_guid>
+        <update_guid_history>c5e9097962631210c601b5b6549043b9:-1415549509</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">15e90979836312108cbc6f80ceaad3ef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-06 16:10:49</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>609ec99fba334b90ab4ebd360350aa40</sys_id>
+        <sys_metadata>85e90979836312108cbc6f80ceaad3b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="viajes_02" source="x_1605933_viajes_0">38e80878832312108cbc6f80ceaad3ac</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</sys_scope>
+        <sys_scope_delete display_value="">9c992ebffebf40f0a08078e0159c7be4</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_85e90979836312108cbc6f80ceaad3b8</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_85e90979836312108cbc6f80ceaad3b8">c1e90979836312108cbc6f80ceaad3ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-06 16:10:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

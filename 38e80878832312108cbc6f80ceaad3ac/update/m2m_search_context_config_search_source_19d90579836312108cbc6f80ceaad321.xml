@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="CIPVD - Workspace Search">83c941799a6312103848f171e73f7ff7</search_context_config>
+        <source display_value="CIPVD - x_1605933_viajes_0_viaje">d1d90579836312108cbc6f80ceaad300</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-06 16:10:33</sys_created_on>
+        <sys_id>19d90579836312108cbc6f80ceaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="viajes_02" source="x_1605933_viajes_0">38e80878832312108cbc6f80ceaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_19d90579836312108cbc6f80ceaad321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-06 16:10:33</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

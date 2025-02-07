@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cfaa287083e312108cbc6f80ceaad35e" label="puesto" max_length="40" name="x_1605933_viajes_0_puesto" text_index="true" type="collection">
+        <element display="true" label="Puesto" max_length="240" name="puesto" type="string"/>
+    </element>
+</database>

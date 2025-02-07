@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1605933_viajes_0.filter_unidad</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>filter_unidad</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var FilterIBIAssetsFromReports = Class.create();
+FilterIBIAssetsFromReports.prototype = {
+	initialize: function() {},
+
+	type: 'FilterIBIAssetsFromReports',
+};
+FilterIBIAssetsFromReports.DATABASE_VIEW = 'my_company_assets';
+FilterIBIAssetsFromReports.IBI_EXCLUSION_PROP = 'sn_itam_exclude_ibi_asset_reporting';
+/* Exclude IBI assets from important actions and reports. Write query as per requirement.
+Return GlideRecord object */
+FilterIBIAssetsFromReports.excludeIBIAssets = function(assetGr) {
+	if (assetGr.getTableName() === FilterIBIAssetsFromReports.DATABASE_VIEW) {
+		/** append prefix of the view i.e 'ast' to the fields in the query. View is for reports.
+         ** assetGr.addQuery('','');
+         * */
+	} else {
+		/** Important actions query
+         ** assetGr.addQuery('','');
+         * */
+	}
+	return assetGr;
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 12:36:27</sys_created_on>
+        <sys_id>b1ebb4f4832712108cbc6f80ceaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>filter_unidad</sys_name>
+        <sys_package display_value="viajes_02" source="x_1605933_viajes_0">38e80878832312108cbc6f80ceaad3ac</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</sys_scope>
+        <sys_update_name>sys_script_include_b1ebb4f4832712108cbc6f80ceaad31d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 12:36:27</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b1ebb4f4832712108cbc6f80ceaad31d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 12:36:26</sys_created_on>
+        <sys_id>7f0c34f4832712108cbc6f80ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 12:36:26</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

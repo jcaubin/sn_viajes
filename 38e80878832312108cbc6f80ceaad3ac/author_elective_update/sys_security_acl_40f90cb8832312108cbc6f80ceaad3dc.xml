@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1605933_viajes_0_area</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 08:57:27</sys_created_on>
+        <sys_id>40f90cb8832312108cbc6f80ceaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1605933_viajes_0_area</sys_name>
+        <sys_package display_value="viajes_02" source="x_1605933_viajes_0">38e80878832312108cbc6f80ceaad3ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</sys_scope>
+        <sys_update_name>sys_security_acl_40f90cb8832312108cbc6f80ceaad3dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 08:57:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</application>
+        <file_path/>
+        <instance_id>f3eeee361b190a5432182f8dee4bcb5c</instance_id>
+        <instance_name>dev255443</instance_name>
+        <name>sys_security_acl_40f90cb8832312108cbc6f80ceaad3dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_1605933_viajes_0_area</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-03 08:57:27</sys_created_on><sys_id>40f90cb8832312108cbc6f80ceaad3dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1605933_viajes_0_area</sys_name><sys_package display_value="viajes_02" source="x_1605933_viajes_0">38e80878832312108cbc6f80ceaad3ac</sys_package><sys_policy/><sys_scope display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</sys_scope><sys_update_name>sys_security_acl_40f90cb8832312108cbc6f80ceaad3dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-03 08:57:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-2011993277</payload_hash>
+        <record_name>x_1605933_viajes_0_area</record_name>
+        <reverted_from/>
+        <source>c9e80878832312108cbc6f80ceaad3b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 08:57:27</sys_created_on>
+        <sys_id>1cf98cb8832312108cbc6f80ceaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194cb0768980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 08:57:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>10f98cb8852312101eb92478a8c0169e</update_guid>
+        <update_guid_history>10f98cb8852312101eb92478a8c0169e:-2011993277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 08:41:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>178f61cfdb77489fbf82705e85ec2b51</sys_id>
+        <sys_metadata>40f90cb8832312108cbc6f80ceaad3dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1605933_viajes_0_area</sys_name>
+        <sys_package display_value="viajes_02" source="x_1605933_viajes_0">38e80878832312108cbc6f80ceaad3ac</sys_package>
+        <sys_parent display_value="x_1605933_viajes_0_area">4be94cb8832312108cbc6f80ceaad34f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="viajes_02">38e80878832312108cbc6f80ceaad3ac</sys_scope>
+        <sys_scope_delete display_value="">9c992ebffebf40f0a08078e0159c7be4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_40f90cb8832312108cbc6f80ceaad3dc</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_40f90cb8832312108cbc6f80ceaad3dc">1cf98cb8832312108cbc6f80ceaad39e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 08:41:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

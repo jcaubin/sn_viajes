@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="79a14dbd832312108cbc6f80ceaad375" label="responsable programa presupuestario" max_length="40" name="x_1605933_viajes_0_responsable_programa_presupuestario" text_index="true" type="collection">
+        <element display="true" label="responsable programa" max_length="240" name="responsable_programa" type="string"/>
+    </element>
+</database>

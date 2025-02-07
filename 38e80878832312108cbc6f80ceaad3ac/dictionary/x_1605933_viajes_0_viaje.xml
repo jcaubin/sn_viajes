@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="no_attachment" db_object_id="993ba4b083e312108cbc6f80ceaad35f" label="viaje" max_length="40" name="x_1605933_viajes_0_viaje" text_index="true" type="collection">
+        <element dependent="area" dependent_on_field="area" label="2. NOMBRE DE LA UNIDAD DE ADSCRIPCIÓN." max_length="32" name="unidad" reference="x_1605933_viajes_0_unidad" type="reference" use_dependent_field="true"/>
+        <element label="6. INDIQUE EL DÍA DE FINALIZACIÓN DEL VIAJE." max_length="40" name="fecha_de_finalizacion" type="glide_date"/>
+        <element label="3. APELLIDOS Y NOMBRE DE QUIEN REALIZÓ EL GASTO." max_length="32" name="nombre" reference="sys_user" type="reference"/>
+        <element label="4. SEÑALE EL PUESTO QUE OCUPA LA PERSONA OBLIGADA." max_length="32" name="puesto" reference="x_1605933_viajes_0_puesto" type="reference"/>
+        <element display="true" label="7. INDIQUE EL MOTIVO DEL VIAJE." max_length="240" name="motivo" type="string"/>
+        <element label="13. INDIQUE EL IMPORTE DEDICADO A GASTOS DE TRANSPORTE." max_length="38" name="importe_gastos_transporte" type="currency"/>
+        <element label="1. NOMBRE DE ÁREA/DISTRITO/OO.AA./EE.PP." max_length="32" name="area" reference="x_1605933_viajes_0_area" type="reference"/>
+        <element label="5. INDIQUE EL DÍA DE INICIO DEL VIAJE." max_length="40" name="fecha_de_inicio" type="glide_date"/>
+        <element label="10. SEÑALE EL RESPONSABLE DEL PROGRAMA PRESUPUESTARIO ESCOGIDO." max_length="32" name="responsable_programa" reference="x_1605933_viajes_0_responsable_programa_presupuestario" type="reference"/>
+        <element label="8. INDIQUE EL DESTINO DEL VIAJE." max_length="240" name="destino" type="string"/>
+        <element label="12. ¿EL VIAJE HA SUPUESTO GASTOS DE TRANSPORTE?" mandatory="true" max_length="40" name="supone_gastos_transporte" type="boolean"/>
+        <element choice="3" label="11.0 ESPECIFIQUE EL MEDIO DE PAGO EMPLEADO EN EL VIAJE." mandatory="true" max_length="40" name="medio_pago" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Transferencia bancaria" sequence="0" value="transferencia_bancaria"/>
+                <element inactive_on_update="false" label="Cheque bancario" sequence="1" value="cheque_bancario"/>
+                <element inactive_on_update="false" label="Ambas" sequence="2" value="ambas"/>
+            </choice>
+        </element>
+        <element label="9. SEÑALE EL PROGRAMA PRESUPUESTARIO CORRESPONDIENTE." max_length="32" name="programa_presupuestario" reference="x_1605933_viajes_0_programa_presupuestario" type="reference"/>
+        <index name="index">
+            <element name="area"/>
+        </index>
+        <index name="index2">
+            <element name="nombre"/>
+        </index>
+        <index name="index3">
+            <element name="programa_presupuestario"/>
+        </index>
+        <index name="index4">
+            <element name="puesto"/>
+        </index>
+        <index name="index5">
+            <element name="responsable_programa"/>
+        </index>
+        <index name="index6">
+            <element name="unidad"/>
+        </index>
+    </element>
+</database>
